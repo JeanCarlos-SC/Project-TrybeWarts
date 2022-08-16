@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+
+html , body {
+  font-family: Miltonian Tattoo, cursive;
+  margin: 0;
+  font-size: 2vh;
+  background-image: url('https://i.pinimg.com/originals/c2/46/ba/c246ba5ab2a540a6e8dd17a54d18fdee.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.trybewarts-login > input , button {
+  padding: 10px;
+  margin-right: 10px;
+  width: 150px;
+  border-radius: 6px;
+  border: 0;
+}
+
+#btn-login {
+  background-color: rgb(62, 0, 133);
+  color: white;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: rgb(111, 165, 155);
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#principal {
+  border: 1px solid black;
+  height: 86vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#evaluation-form h1 {
+  text-align: center;
+}
+
+#full-name {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+#full-name input {
+  width: 46%;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+#house-container {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-size: 2vh;
+  align-items: flex-end;
+  opacity: 0.8;
+}
+
+#house-container input {
+  width: 46%;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+select {
+  width: 40%;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+hr {
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+#family-container {
+  display: flex;
+  flex-direction: column;
+  height: 16vh;
+  width: 32vh;
+  justify-content: space-around;
+}
+
+#tech-container {
+  display: flex;
+  width: 32vh;
+  height: 16vh;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+#checks-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#submit-btn {
+  width: 100%;
+  background-color: rgb(62, 0, 133);
+  color: white;
+}
+
+#label-rate {
+  margin-bottom: 10px;
+}
+
+textarea {
+  border-radius: 6px;
+  background-color:rgb(160, 221, 213);
+  font-family: Miltonian Tattoo, cursive;
+  font-size: 1.7vh;
+}
+
+footer {
+  margin-bottom: 0;
+  text-align: center;
+  background-color: rgb(45, 105, 94);
+  font-size: 2vh;
+  padding: 10px;
+  color: white;
+}
+
+#form-data {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: rgb(111, 165, 155);
+}
+
+@media screen and (max-width: 1050px) {
+.header {
+  justify-content: center;
+}
+
+.trybewarts-login > input , button {
+  width: 30%;
+  border-radius: 6px;
+  border: 0;
+}
+
+.header h1 {
+  margin-right: 2%;
+}
+.header img {
+  margin-right: 2%;
+  width: 8%;
+}
+
+#principal {
+  flex-direction: column;
+  justify-content: center;
+  height: 89vh;
+}
+
+#principal img {
+  display: none;
+}
+
+#evaluation-form {
+  width: 60%;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: rgb(111, 165, 155);
+}
+
+}
+
+@media screen and (max-width: 700px) {
+  .header h1 {
+    display: none;
+  }
+  .header img {
+    margin-right: 2%;
+    width: 10%;
+  }
+  
+  #evaluation-form {
+    width: 88%;
+  }
+}
