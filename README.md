@@ -6,4 +6,4 @@ O objetivo desse projeto foi criar uma página HTML, com o auxilio do CSS Flexbo
 ### Demosntração do Projeto:
 <img src='images/demo-trybeWarts.png' alt='demo do projeto'></img>;
 
-### Link para acessar o projeto: https://jeancarlos-sc.github.io/projetos/to-do-list/
+### Link para acessar o projeto: https://jeancarlos-sc.github.io/projetos/trybewarts/
